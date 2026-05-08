@@ -112,10 +112,10 @@ Misclassification Analysis
 
 | Metric | Value |
 |---|---|
-| Accuracy | See notebook output |
-| F1 Score | See notebook output |
-| Precision | See notebook output |
-| Recall | See notebook output |
+| Accuracy | 0.9086 |
+| F1 Score | 0.9134 |
+| Precision | 0.8820 |
+| Recall | 0.9474 |
 
 > Full classification report and confusion matrix are available in the notebook.
 
@@ -148,10 +148,9 @@ pip install transformers datasets accelerate evaluate shap lime seaborn -q
 
 ## How to Run
 
-1. Open `F230048_NLP_ASS4.ipynb` in **Google Colab**
+1. Open `Transformer_Sentiment_Classification.ipynb` in **Google Colab**
 2. Set runtime to **GPU** (T4 or better): `Runtime → Change runtime type → GPU`
-3. Mount Google Drive when prompted (for saving outputs)
-4. Run all cells sequentially
+3. Run all cells sequentially
 
 > **Note:** The LIME cells require `torch.no_grad()` and `num_samples=500` to avoid CUDA out-of-memory errors on a T4 GPU.
 
@@ -161,5 +160,3 @@ pip install transformers datasets accelerate evaluate shap lime seaborn -q
 
 **Roll No:** F230048  
 **Course:** Natural Language Processing  
-**Submitted to:** [Your Instructor Name]  
-**Institution:** [Your University Name]
