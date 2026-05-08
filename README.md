@@ -117,7 +117,6 @@ Misclassification Analysis
 | Precision | 0.8820 |
 | Recall | 0.9474 |
 
-> Full classification report and confusion matrix are available in the notebook.
 
 ---
 
